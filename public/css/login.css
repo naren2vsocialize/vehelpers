@@ -1,0 +1,75 @@
+@CHARSET "ISO-8859-1";
+
+.alt-font{font-family: 'Montserrat', sans-serif; font-weight: 400;}
+.clear{clear:both;}
+form{margin-bottom:5px;}
+.login {
+    background: #f1f1f1 none repeat scroll 0 0;
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+    margin: auto;
+    padding: 25px;
+    width: 350px;
+}
+.pop-signup {
+    background: #f1f1f1 none repeat scroll 0 0;
+    border: 1px solid #e3e3e3;
+    border-radius: 5px;
+    margin: auto;
+    padding: 25px;
+    width: 350px;
+}
+.textbox{
+    border: 1px solid #e2e2e2;
+    height: 30px;
+    margin: auto;
+    text-indent: 10px;
+    width: 100%;
+    margin: auto auto 20px;
+}
+.modal {
+	background: rgba(0, 0, 0, 0.7);
+}
+.login-con{
+    float: right;
+    text-align: right;
+    width: 50%;
+}
+.login-button{
+    background: #1E8BC3;
+    border: medium none;
+    border-radius: 3px;
+    color: #ffffff;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition:0.5s ease;
+    text-decoration: none;
+}
+.login-button:hover{
+    background: #6BB9F0;
+}
+.signup-link{
+	background: #1BBC9B;
+    border: medium none;
+    border-radius: 3px;
+    color: #ffffff;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition:0.5s ease;
+    text-decoration: none;
+ }
+ .signup-link:hover{
+	background: #66CC99;
+ }
+ .error {
+ 	border: 1px solid #ff0000;
+ }
+ .error-text {
+ 	color: #ff0000;
+ }
+ .success-text {
+ 	color: #4F8A10;
+ }
+ .upload-file {
+ 	display: none !important;
+ }
