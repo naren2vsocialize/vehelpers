@@ -120,7 +120,6 @@ $config = array (
   {
       try {
               $response = $service->getFeedSubmissionList($request);
-              
                 echo ("Service Response\n");
                 echo ("=============================================================================\n");
 

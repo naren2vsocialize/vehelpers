@@ -19,7 +19,7 @@
 /**
  *  @see MarketplaceWebService_Model
  */
-require_once ('MarketplaceWebService/Model.php');  
+//require_once ('MarketplaceWebService/Model.php');  
 
     
 
@@ -74,6 +74,7 @@ class MarketplaceWebService_Model_GetFeedSubmissionListResponse extends Marketpl
         $xpath = new DOMXPath($dom);
     	$xpath->registerNamespace('a', 'http://mws.amazonaws.com/doc/2009-01-01/');
         $response = $xpath->query('//a:GetFeedSubmissionListResponse');
+
         if ($response->length == 1) {
             return new MarketplaceWebService_Model_GetFeedSubmissionListResponse(($response->item(0))); 
         } else {
